@@ -72,8 +72,9 @@ body {
     height: auto;
     text-align: center;
     margin-top: 5px;
-    font-size: 39px;
+    font-size: 35px;
     cursor: url("assets/cursors/finger.cur"), auto;
+    border-radius: 50px;
   }
 
   .shop-pc {
@@ -82,9 +83,10 @@ body {
     height: auto;
     text-align: center;
     margin-top: 5px;
-    font-size: 39px;
+    font-size: 35px;
     background-color: rgba(0, 0, 0, 0.1);
     cursor: url("assets/cursors/finger.cur"), auto;
+    border-radius: 50px;
   }
 
   .shop-rb {
@@ -93,11 +95,16 @@ body {
     height: auto;
     text-align: center;
     margin-top: 20px;
-    font-size: 39px;
+    font-size: 35px;
     background-color: rgb(0, 0, 0);
     color: #ffffff;
     margin-bottom: 30px;
     cursor: url("assets/cursors/finger.cur"), auto;
+    border-radius: 50px;
+  }
+
+  .shop-details {
+    font-size: large;
   }
 
   #v {
@@ -161,5 +168,13 @@ body {
     background-color: tan;
     outline: #000000;
     cursor: url("assets/cursors/typing.cur"), auto;
+    border-radius: 50px;
+  }
+
+  .button {
+    background-color: tan;
+    outline: #000000;
+    border-radius: 50px;
+    cursor: url("assets/cursors/finger.cur"), auto;
   }
 }
