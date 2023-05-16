@@ -114,6 +114,7 @@ body {
 
   .reset {
     border: #000000 1px solid;
+    border-radius: 50px;
     width: 350px;
     height: auto;
     text-align: center;
