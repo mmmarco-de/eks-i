@@ -1,4 +1,4 @@
-if (localStorage.firsttimeplay == undefined) {
+if (localStorage.firsttimeplay == "") {
   alert('In diesem Spiel ist es 2100. iKacka ist wertvoller als Gold.\nKlicke auf den iKackhaufen um iKACKA zu kriegen. iKACKA wird alle 10 Sekunden automatisch verkauft.\nWerde der reichste Mensch der welt und mache einen iMilliarden-iUmsatz mit iKACKA!')
   localStorage.firsttimeplay = false;
 };
@@ -44,7 +44,7 @@ function clc() {
 };
 
 function Sleep(milliseconds) {
-  return new Promise(resolve => setTimeout(resolve, milliseconds));
+ return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
 
 async function makeMoney() {
@@ -119,23 +119,23 @@ function rebirth() {
 };
 
 function enterCode() {
-  if document.getElementById('codeInput').value == 'wtf' {
-    alert('Das Braune Auto flog durch das Grüne Haus, dass genauso wie das Auto Gelb ist.')
+  if (document.getElementById('codeInput').value == 'eberhartnencock') {
+    alert('Das braune auto flog durch das grüne haus, das genauso wie das auto gelb ist.')
     document.getElementById('codeInput').value = '';
   }
 };
 
 function openResetMenue() {
-  document.getElementById('popup').innerHTML =
-    '<div class="overlay">\n' +
-    '  <div class="popupp">\n' +
-    '    <div class="heading">iGame zurücksetzten</div>\n' +
-    '    <div class="x" onclick="closePopup()">iClose</div>\n' +
-    '    <button class="btn" onclick="reset()">\n' +
-    '      Hier klicken, um dein iGame zurückzusetzten.\n' +
-    '    </button>\n' +
-    '  </div>\n' +
-    '</div>'
+  document.getElementById('popup').innerHTML = 
+  '<div class="overlay">\n' +
+  '  <div class="popupp">\n' +
+  '    <div class="heading">iGame zurücksetzten</div>\n' +
+  '    <div class="x" onclick="closePopup()">iClose</div>\n' +
+  '    <button class="btn" onclick="reset()">\n' +
+  '      Hier klicken, um das iGame zurückzusetzten.\n' +
+  '    </button>\n' +
+  '  </div>\n' +
+  '</div>'
 };
 
 function closePopup() {
