@@ -119,8 +119,8 @@ function rebirth() {
 };
 
 function enterCode() {
-  if (document.getElementById('codeInput').value == 'eberhartnencock') {
-    alert('Das braune auto flog durch das grüne haus, das genauso wie das auto gelb ist.')
+  if (document.getElementById('codeInput').value == 'ikacka') {
+    alert('This is Apple iKacka.')
     document.getElementById('codeInput').value = '';
   }
 };
@@ -129,10 +129,10 @@ function openResetMenue() {
   document.getElementById('popup').innerHTML = 
   '<div class="overlay">\n' +
   '  <div class="popupp">\n' +
-  '    <div class="heading">iGame zurücksetzten</div>\n' +
+  '    <div class="heading">iReset</div>\n' +
   '    <div class="x" onclick="closePopup()">iClose</div>\n' +
   '    <button class="btn" onclick="reset()">\n' +
-  '      Hier klicken, um das iGame zurückzusetzten.\n' +
+  '      Hier klicken, um das iGame zurückzusetzen.\n' +
   '    </button>\n' +
   '  </div>\n' +
   '</div>'
