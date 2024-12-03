@@ -1,0 +1,8 @@
+{
+  "name": "iKackaKlicker: ein Klicker Game",
+  "theme_color": "#d2b48c",
+  "background_color": "#d2b48c",
+  "short_name": "iKackaKlicker",
+  "id": "de.mmmarco.eks-i",
+  "description": "iKackaKlicker\nEin Kack Spiel - Das Klicker Game (i Edition)"
+}
