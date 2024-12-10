@@ -1,0 +1,8 @@
+# replace mmmarco-de/iKackaKlicker with you GitHub Username and GitHub Repository Name
+/eks/download https://github.com/mmmarco-de/iKackaKlicker/releases
+
+# replace mmmarco-de/iKackaKlicker with you GitHub Username and GitHub Repository Name
+/eks/repo https://github.com/mmmarco-de/iKackaKlicker
+
+# PLEASE LEAVE THIS - IF REMOVED IT WILL NOT WORK
+/eks/marco https://mmmarco.de/
