@@ -1,9 +1,9 @@
 if (localStorage.firsttimeplay == "") {
-  alert('In diesem Spiel ist es 2100. iKacka ist wertvoller als Gold.\nKlicke auf den iKackhaufen um iKACKA zu kriegen. iKACKA wird alle 10 Sekunden automatisch verkauft.\nWerde der reichste Mensch der welt und mache einen iMilliarden-iUmsatz mit iKACKA!')
+  alert('In diesem Spiel ist es 2100. iKacka ist wertvoller als Gold.\nKlicke auf den iKackhaufen um iKACKA zu kriegen. iKACKA wird alle 10 Sekunden automatisch verkauft.\nWerde der reichste Mensch der welt und mache einen iMilliarden-iUmsatz mit iKACKA!\n\nBenutze den iCode "pear" für mehr Optionen.')
   localStorage.firsttimeplay = false;
 };
 if (localStorage.firsttimeplay == 'true') {
-  alert('In diesem Spiel ist es 2100. iKacka ist wertvoller als Gold.\nKlicke auf den iKackhaufen um iKACKA zu kriegen. iKACKA wird alle 10 Sekunden automatisch verkauft.\nWerde der reichste Mensch der welt und mache einen iMilliarden-iUmsatz mit iKACKA!')
+  alert('In diesem Spiel ist es 2100. iKacka ist wertvoller als Gold.\nKlicke auf den iKackhaufen um iKACKA zu kriegen. iKACKA wird alle 10 Sekunden automatisch verkauft.\nWerde der reichste Mensch der welt und mache einen iMilliarden-iUmsatz mit iKACKA!\n\nBenutze den iCode "pear" für mehr Optionen.')
   localStorage.firsttimeplay = false;
 };
 
@@ -119,8 +119,9 @@ function rebirth() {
 };
 
 function enterCode() {
-  if (document.getElementById('codeInput').value == 'ikacka') {
-    alert('This is Apple iKacka.')
+  if (document.getElementById('codeInput').value == 'pear') {
+    alert('This is iKackaKlicker.')
+    window.location = '/pages/pear/';
     document.getElementById('codeInput').value = '';
   }
 };

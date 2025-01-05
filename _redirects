@@ -8,6 +8,13 @@
 ##         this comment please           ##
 ###########################################
 
+
+
+# Useful Redirects
+/play /game.html
+/game /game.html
+/
+
 # Releases to download and self-host
 /eks/download https://github.com/mmmarco-de/eks-i/releases
 
@@ -16,3 +23,6 @@
 
 # DO NOT REMOVE PLEASE
 /eks/marco https://mmmarco.de/
+
+# 404 ERROR
+/* /404.html 404

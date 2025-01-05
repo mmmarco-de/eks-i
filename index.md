@@ -8,7 +8,7 @@ Dieses Spiel selbst wurde in HTML, CSS und Javascript erstellt und ist vollstän
 
 iKackaKlicker (eks-i) v2.3
 
-[**SPIELEN**](https://eks-i.mmmarco.de/)
+[**SPIELEN**](/game.html)
 
 ****
 [mmmarco.de](https://mmmarco.de) ; [Email](mailto:marco@mmmarco.de)

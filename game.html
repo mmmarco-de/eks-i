@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>eks-i | iKackaKlicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="game">
+    <div class="anzeigen">
+      Apples: <span id="money"></span><br />
+      iKACKA: <span id="kacka"></span><br />
+      /Klick: <span id="pc"></span><br />
+      /Sekunde: <span id="ps"></span>
+    </div>
+    <img src="/assets/images/kackhaufen.gif" id="kackhaufen" width="350px" onclick="clc()">
+    <div class="shop">
+      <div class="shop-ps" onclick="buyPs(50, 1)">
+        iToiletPaper<br />
+        <span class="shop-details">+1€ pro sekunde</span><br />
+        <span class="shop-details">Preis: 50€</span>
+      </div>
+      <div class="shop-pc" onclick="buyPc(100, 1)">
+        iToiletPaper Gold<br />
+        <span class="shop-details">+1 pro click</span><br />
+        <span class="shop-details">Preis: 100€</span>
+      </div>
+      <div class="shop-ps" onclick="buyPs(450, 10)">
+        iToiletPapier 2<br />
+        <span class="shop-details">+10€ pro sekunde</span><br />
+        <span class="shop-details">Preis: 450€</span>
+      </div>
+      <div class="shop-pc" onclick="buyPc(900, 10)">
+        iToiletPapier Infinity<br />
+        <span class="shop-details">+10 pro click</span><br />
+        <span class="shop-details">Preis: 900€</span>
+      </div>
+      <div class="shop-ps" onclick="buyPs(4000, 100)">
+        iToiletBrush<br />
+        <span class="shop-details">+100€ pro sekunde</span><br />
+        <span class="shop-details">Preis: 4000€</span>
+      </div>
+      <div class="shop-pc" onclick="buyPc(8000, 100)">
+        iToiletBrush Gold<br />
+        <span class="shop-details">+100 pro click</span><br />
+        <span class="shop-details">Preis: 8000€</span>
+      </div>
+      <div class="shop-ps" onclick="buyPs(35000, 1000)">
+        iToitletBrush Platin<br />
+        <span class="shop-details">+1k€ pro sekunde</span><br />
+        <span class="shop-details">Preis: 35000€</span>
+      </div>
+      <div class="shop-pc" onclick="buyPc(75000, 1000)">
+        iToiletBrush <span class="shop-details">ReUsable</span><br />
+        <span class="shop-details">+1k pro click</span><br />
+        <span class="shop-details">Preis: 75000€</span>
+      </div>
+      <div class="shop-ps" onclick="buyPs(300000, 10000)">
+        iToilet<br />
+        <span class="shop-details">+10k€ pro sekunde</span><br />
+        <span class="shop-details">Preis: 300000€</span>
+      </div>
+      <div class="shop-pc" onclick="buyPc(700000, 10000)">
+        iToilet Gold<br />
+        <span class="shop-details">+10k pro click</span><br />
+        <span class="shop-details">Preis: 700000€</span>
+      </div>
+      <div class="shop-ps" onclick="buyPs(2500000, 100000)">
+        iToilet Platin<br />
+        <span class="shop-details">+100k€ pro sekunde</span><br />
+        <span class="shop-details">Preis: 2500000€</span>
+      </div>
+      <div class="shop-pc" onclick="buyPc(6500000, 100000)">
+        iToilet Ultra Rubin<br />
+        <span class="shop-details">+100k pro click</span><br />
+        <span class="shop-details">Preis: 6500000€</span>
+      </div>
+      <div class="shop-rb" onclick="rebirth()">
+        iRebirth<br />
+        <span class="shop-details">Apples nötig: <span id="rebirthPrice"></span>€</span><br />
+        <span class="shop-details">iRebirth Counter: <span id="rebirths"></span></span>
+      </div>
+      <span id="v">iKackaKlicker (v3.2)</span><br />
+      <input type="text" class="input" id="codeInput" placeholder="Code hier eingeben">
+      <button class="button" onclick="enterCode()">iCode einlösen</button>
+    </div>
+    <div class="reset" onclick="openResetMenue()">
+      iReset
+    </div>
+  </div>
+  <div id="popup"></div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
