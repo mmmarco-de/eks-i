@@ -1,8 +1,18 @@
-# replace mmmarco-de/iKackaKlicker with you GitHub Username and GitHub Repository Name
-/eks/download https://github.com/mmmarco-de/iKackaKlicker/releases
+## _REDIRECTS ##
+# Here you can configure the redirects. The redirects under the information box should be there and shouldn't be removed.
 
-# replace mmmarco-de/iKackaKlicker with you GitHub Username and GitHub Repository Name
-/eks/repo https://github.com/mmmarco-de/iKackaKlicker
 
-# PLEASE LEAVE THIS - IF REMOVED IT WILL NOT WORK
+
+############## INFORMATION ################
+##  Please do not change anything under  ##
+##         this comment please           ##
+###########################################
+
+# Releases to download and self-host
+/eks/download https://github.com/mmmarco-de/eks-i/releases
+
+# Repository for iKackaKlicker
+/eks/repo https://github.com/mmmarco-de/eks-i
+
+# DO NOT REMOVE PLEASE
 /eks/marco https://mmmarco.de/
